@@ -67,8 +67,8 @@
           <i class="bi bi-trash"></i>
         </button>
 
-        <button type="submit" class="btn btn-primary btn-lg mt-3 ms-3">
-          Salvar
+        <button type="submit" class="btn btn-primary btn-lg mt-3 ms-3 rounded-button">
+          <span class="mx-5" style="font-size: 16px;"> Salvar </span>
         </button>
       </div>
     </form>
@@ -130,6 +130,10 @@ export default {
 <style>
 .rounded-form {
   border-radius: 15px !important;
+}
+
+.rounded-button {
+  border-radius: 30px !important;
 }
 
 .selected {
