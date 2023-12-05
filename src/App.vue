@@ -1,12 +1,15 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <div class="container mt-4" style="height: 100%;">
+      <h2 class="font-weight-bold d-flex m-3">Anotações</h2>
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App',
+  name: "App",
 };
 </script>
 
